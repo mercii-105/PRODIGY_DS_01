@@ -1,0 +1,22 @@
+🎯 Goal:
+Use Tableau to create a bar chart or histogram to visualize the distribution of the total population by country (or by year if you want time series).
+
+Steps in Tableau
+2️⃣ Open Tableau
+Open Tableau Desktop (or Tableau Public if you don’t have Desktop).
+
+3️⃣ Connect to your data
+Click “Connect” → “Text file” → choose your CSV file.
+Tableau will show you a preview. Make sure columns like Country Name, 2020, 2019 etc. are visible.
+
+4️⃣ Make a Bar Chart (for categorical: countries)
+Drag Country Name to Columns.
+Drag e.g. 2020 to Rows.
+If you want, click the Sort icon (looks like a little bar chart with an arrow) to sort from highest to lowest.
+
+5️⃣ Make a Histogram (for continuous distribution)
+If you want to see distribution of population values (like how many countries have 0-10M people, 10-20M, etc.):
+Drag 2020 to Columns.
+Click on the small dropdown on that field in Columns → select Histogram.
+Tableau will automatically bin the data and create a histogram.
+
